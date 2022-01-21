@@ -1,0 +1,45 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Quattrocento:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+    </style>
+    <title>Style Sheet</title>
+    </head>
+    <body>
+        body {
+            font-family: 'Oswald', Verdana, Ariel, sans-serif;
+        }
+
+        #container {
+            margin-top: 50px;
+            margin-left: 100px;
+            margin-right: 100px;
+        }
+
+        h1, h2, h3, h4 {
+            background-color: #C0D725;
+            font-color: black;
+            border-width: 1px;
+            border-style: solid;
+            border-color: #D6A800;
+            padding: 10px;
+        }
+
+        a {
+            color: gray;
+        }
+
+        a:hover {
+            color: black;
+        }
+
+        a:visited {
+            color: black;
+        }
+
+    </body>
+</html>
