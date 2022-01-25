@@ -1,0 +1,34 @@
+#image-gallery {
+	display:  grid;
+	grid-template-columns: auto auto auto;
+	padding: 10px;
+}
+
+#gallery-item {
+	border-style: solid;
+	border-radius: 15px;
+	padding: 5px;
+}
+html {
+	font-family: 'Oswald', Verdan, Arial, sans-serif;
+}
+h1 {
+	text-align: center;
+}
+
+h3 {
+	text-align: center;
+}
+img {
+	max-width: 400px;
+	height: 350px;
+}
+
+figure {
+	text-align: center;
+}
+
+figcaption {
+	font-style: italic;
+	font-size: .75em;
+}
